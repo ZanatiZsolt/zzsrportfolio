@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://ZanatiZsolt.github.io/zzsrportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,6 +42,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://zanatizsolt.github.io/zzsrportfolio"
+  }
 }
