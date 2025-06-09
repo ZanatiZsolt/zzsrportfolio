@@ -1,0 +1,37 @@
+.Tech{
+    height: 100vh;
+    color: var(--color-dark-blue);
+    background-color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tech>h1{
+    font-size: 5rem;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--color-dark-blue);
+    padding: 3rem;
+    border-radius: 1.56rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card>img{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+    border-radius: 1.56rem;
+}

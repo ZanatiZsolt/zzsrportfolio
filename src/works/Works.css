@@ -1,0 +1,45 @@
+.Works{
+    height: 100vh;
+    background-color: var(--color-dark-blue);
+    color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Works>h1{
+    font-size: 5rem;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0 1rem;
+    margin-top: 4rem;
+}
+
+.gridItem{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    border: 4px solid var(--color-cream);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #045345;
+    border-radius: 1%;
+    text-decoration: none;
+}
+.gridItem:visited{
+    color: var(--color-cream);
+}
+.gridItem>img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-cream);
+}
