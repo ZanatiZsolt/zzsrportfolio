@@ -23,6 +23,7 @@
     transition: all 0.3s;
     border-radius: 5%;
     font-weight: 700;
+    color: var(--color-cream);
 }
 
 .brand{

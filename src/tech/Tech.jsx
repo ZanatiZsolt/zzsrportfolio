@@ -1,5 +1,7 @@
 import React from "react";
 import './Tech.css'
+import wpf from './dotnet.png'
+import reactl from "./logo512.png";
 
 function Tech(){
     return(
@@ -9,18 +11,18 @@ function Tech(){
             <div className="cards">
 
                 <div className="card">
-                    <img src="dotnet.png" alt="" />
+                    <img src={wpf} alt="" />
                     WPF
                 </div> 
 
                 <div className="card">
-                    <img src="logo512.png" alt="" />
+                    <img src={reactl} alt="" />
                     React
                 </div>
                 
 
                  <div className="card">
-                    <img src="dotnet.png" alt="" />
+                    <img src={wpf} alt="" />
                     ASP.NET
                 </div>
             </div>

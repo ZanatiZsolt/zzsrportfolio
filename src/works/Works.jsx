@@ -1,6 +1,6 @@
 import React from "react";
 import './Works.css'
-
+import bmzs from './BMZS2.png'
 
 
 function Works(){
@@ -11,7 +11,7 @@ function Works(){
 
             <div className="workGrid">
                 <a className="gridItem" href="https://github.com/M4TT41/BMZSBarberShop">
-                    <img src="BMZS2.png" alt="" />
+                    <img src={bmzs} alt="" />
                     A technikusi mestermunkánk, egy fodrász weboldal.
                 </a>
                 <a className="gridItem">
