@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import  { useState } from "react";
 import './Contact.css'
 import { FaDiscord , FaInstagram,FaFacebook} from "react-icons/fa";
 
@@ -56,9 +56,9 @@ function Contact(){
                 </form>
      
             <div className="contacts">
-                <a className="contactItem" href="https://discordapp.com/users/234639136085114880" target="_blank"><FaDiscord className="icon"/> robika</a>
-                <a className="contactItem" href="https://www.facebook.com/zsolt.zanati.9" target="_blank"><FaFacebook className="icon"/> Zsolt Zanati</a>
-                <a className="contactItem" href="https://www.instagram.com/zsoltzanatirobika/" target="_blank"><FaInstagram className="icon"/> zsoltzanatirobika</a>
+                <a className="contactItem"  rel="noreferrer" href="https://discordapp.com/users/234639136085114880" target="_blank"><FaDiscord className="icon"/> robika</a>
+                <a className="contactItem" rel="noreferrer" href="https://www.facebook.com/zsolt.zanati.9" target="_blank"><FaFacebook className="icon"/> Zsolt Zanati</a>
+                <a className="contactItem" rel="noreferrer" href="https://www.instagram.com/zsoltzanatirobika/" target="_blank"><FaInstagram className="icon"/> zsoltzanatirobika</a>
             </div>
         </div>
     )

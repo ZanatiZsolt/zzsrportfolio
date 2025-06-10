@@ -14,7 +14,7 @@ function Works(){
                     <img src={bmzs} alt="" />
                     A technikusi mestermunkánk, egy fodrászati rendszer.
                 </a>
-                <a className="gridItem">
+                <a href="https://github.com/M4TT41/BMZSBarberShop" className="gridItem">
                     Számológép játékokhoz.
                 </a>
               
