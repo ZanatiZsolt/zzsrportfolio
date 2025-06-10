@@ -7,9 +7,7 @@
     align-items: center;
 }
 
-.Tech>h1{
-    font-size: 5rem;
-}
+
 
 .cards{
     display: flex;
@@ -35,3 +33,30 @@
     margin-bottom: 2rem;
     border-radius: 1.56rem;
 }
+
+ @media (max-width: 1468px) {
+    .Tech{
+        height: fit-content;
+    }
+    .cards{
+        gap: 2rem;
+    }
+    .card{
+        padding: 2rem;
+    }
+    .cards:last-child{
+        margin-bottom: 2rem;
+    }
+ }
+
+ @media (max-width: 1268px) {
+    .Tech{
+        height: fit-content;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .cards:last-child{
+        margin-bottom: 2rem;
+    }
+ }

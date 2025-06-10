@@ -1,0 +1,102 @@
+.Contact{
+    height: 100vh;
+    color: var(--color-dark-blue);
+    background-color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactItem{
+    border: 3px solid var(--color-dark-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contactItem:visited{
+    color: var(--color-dark-blue);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.icon{
+    font-size: 2rem;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: var(--color-dark-blue);
+    width: 40rem;
+    border-radius: 1.56rem;
+    border: 3px solid ;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--color-cream);
+}
+
+.button{
+     padding: 0.8rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--color-cream);
+    background-color: var(--color-dark-blue);
+    border: 3px solid var(--color-cream);
+    border-radius: 8px;
+    margin-top: 1rem;
+    width: 10rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.email{
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--color-dark-blue);
+    background-color: var(--color-cream);
+    border: 3px solid var(--color-dark-blue);
+    border-radius: 8px;
+    resize: vertical; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+textarea{
+     width: 100%;
+    max-width: 500px;
+    height: 150px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--color-dark-blue);
+    background-color: var(--color-cream);
+    border: 3px solid var(--color-dark-blue);
+    border-radius: 8px;
+    resize: vertical; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+textarea:focus,.email:focus {
+    border-color: #2e4a62;
+    box-shadow: 0 0 0 2px rgba(46, 74, 98, 0.3);
+}

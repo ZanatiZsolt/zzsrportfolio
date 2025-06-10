@@ -30,7 +30,7 @@
     align-items: center;
     font-size: 1.2rem;
     background-color: #045345;
-    border-radius: 1%;
+    border-radius: 8px;
     text-decoration: none;
 }
 .gridItem:visited{

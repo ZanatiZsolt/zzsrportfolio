@@ -12,7 +12,7 @@ function Works(){
             <div className="workGrid">
                 <a className="gridItem" href="https://github.com/M4TT41/BMZSBarberShop">
                     <img src={bmzs} alt="" />
-                    A technikusi mestermunkánk, egy fodrász weboldal.
+                    A technikusi mestermunkánk, egy fodrászati rendszer.
                 </a>
                 <a className="gridItem">
                     Számológép játékokhoz.
